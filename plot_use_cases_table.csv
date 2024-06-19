@@ -1,0 +1,13 @@
+Use Case,Plot Type,Description,Data Nature,Column Types
+Comparing Categories,Bar Plot,Compare values across different categories.,Categorical Comparison,"Categorical (x), Numeric (y)"
+Comparing Categories,Count Plot,Show the count of observations in each categorical bin.,Categorical Count,Categorical (x)
+Comparing Categories,Pie Chart,"Show proportions or percentages of a whole, suitable for categorical data.",Categorical Proportion,Categorical
+Distribution of a Single Variable,Histogram,Show the frequency distribution of a numeric variable.,Numeric Distribution,Numeric
+Distribution of a Single Variable,Box Plot,Visualize the distribution and identify outliers in a numeric variable.,Numeric Distribution,"Categorical (x), Numeric (y)"
+Distribution of a Single Variable,Violin Plot,"Show the density of the data, especially for multimodal distributions.",Numeric Distribution,"Categorical (x), Numeric (y)"
+Relationship Between Two Variables,Scatter Plot,Explore the relationship and identify patterns between two numeric variables.,Bivariate Relationship,"Numeric (x), Numeric (y)"
+Relationship Between Two Variables,Joint Plot,Display the relationship between two variables along with their distributions.,Bivariate Relationship,"Numeric (x), Numeric (y)"
+Trends Over Time,Line Plot,Show trends over time or a continuous variable.,Time Series,"Date/Time (x), Numeric (y)"
+Trends Over Time,Area Plot,"Show cumulative totals over time, similar to line plots but with filled areas.",Time Series,"Date/Time (x), Numeric (y)"
+Matrix-Like Data,Heatmap,"Visualize matrix-like data, such as a correlation matrix.",Matrix Visualization,Numeric Matrix
+Multiple Relationships,Pair Plot,Understand the distribution of data and relationships between variables.,Multivariate Relationship,Numeric (multiple columns)
